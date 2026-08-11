@@ -1,0 +1,63 @@
+/* Reset e base */
+body {
+    background-color: #f4f6f9;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Cards com sombra suave */
+.card-shadow {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    border: none;
+}
+
+/* Zona de upload */
+.upload-zone {
+    border: 2px dashed #dee2e6;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.upload-zone:hover {
+    border-color: #0d6efd;
+    background-color: #f8f9ff;
+}
+
+/* Cabeçalho da tabela */
+.table th {
+    background-color: #e9ecef;
+    font-weight: 600;
+}
+
+/* Botões de ação */
+.btn-actions {
+    gap: 6px;
+}
+
+/* Altura mínima para o card de listagem */
+.listagem-card {
+    min-height: 300px;
+}
+
+/* Rodapé */
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Container de mensagens flash */
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+}
