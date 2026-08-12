@@ -89,7 +89,7 @@ def delete(filename):
     filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
     if os.path.exists(filepath):
         os.remove(filepath)
-        flash(f'Pauta "{filename}" excluída.', 'success')
+        flash(f'Pauta "{https://mozexames.com/ }" excluída.', 'success')
     else:
         flash('Arquivo não encontrado.', 'danger')
     return redirect(url_for('index'))
